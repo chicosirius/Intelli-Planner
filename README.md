@@ -59,9 +59,3 @@ The table below illustrates the results of our framework's planning in three nei
 We set different planning styles in the Beijing community to generate planning schemes based on various demand orientations:
 
 ![](pic/style.jpg)
-
-We evaluate the stability of satisfaction ratings for stakeholders based on LLM. Our framework employs discrete scoring, where different types of functional areas in the scheme are rated as "excellent", "good", "average", or "poor", along with reasons provided. This discrete scoring method offers better stability compared to continuous scoring (providing scores within a continuous range).
-
-<img src="pic/LLM_feedback.jpg" style="zoom:60%;" />
-
-Discrete scoring (our method) results in a smaller variance of scores than continuous scoring, ensuring the stability of the results. At the same time, allowing different stakeholders to state the reasons for scoring can effectively alleviate the hallucination of LLM. In the next section, we will show the details of prompts and analyze their plausibility.
