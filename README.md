@@ -1,6 +1,6 @@
 # Intelli-Planner
 
-The repo is the official implementation for our AAAI2024 submission: **Intelli-Planner: Towards Participatory and Customized Urban Planning via Large Language Model Empowered Reinforcement Learning**.
+The repo is the official implementation for our AAAI2025 submission: **Intelli-Planner: Towards Participatory and Customized Urban Planning via Large Language Model Empowered Reinforcement Learning**.
 
 ## Overview
 
@@ -52,16 +52,9 @@ Specifically, the high-level objectives are first provided by LLM based on the g
 
 ## Results
 
-The table below illustrates the results of our framework's planning in three neighborhoods: Beijing, Chicago, and Madrid. (**Compared with the original paper, we have added two new baselines, PUP-MA and DRL-MLP**)
-
+The table below illustrates the results of our framework's planning in three neighborhoods: Beijing, Chicago, and Madrid.
 ![](pic/results.jpg)
 
-- **PUP- MA**：Participatory urban planning based on multi-agent collaboration [1]. We simplify the number of agents in the original literature to consider one planner and three different stakeholders interacting with each other. This is a purely LLM-based baseline model, and we utilize GPT-3.5 as our API call interface.
-- **DRL-MLP**：Spatial urban planning based on reinforcement learning [2]. Since the road network we consider is fixed, it is difficult to utilize the graph neural network for training. Therefore, we compare our method with the DRL based on multilayer perceptron mentioned in the literature.
-
-> [1] Zhou Z, Lin Y, Jin D, et al. Large Language Model for Participatory Urban Planning[J]. arXiv preprint arXiv:2402.17161, 2024.
->
-> [2] Zheng Y, Lin Y, Zhao L, et al. Spatial planning of urban communities via deep reinforcement learning[J]. Nature Computational Science, 2023, 3(9): 748-762.
 
 We set different planning styles in the Beijing community to generate planning schemes based on various demand orientations:
 
