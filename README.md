@@ -1,6 +1,6 @@
 # Intelli-Planner
 
-The repo is the official implementation for our AAAI2025 submission: **Intelli-Planner: Towards Participatory and Customized Urban Planning via Large Language Model Empowered Reinforcement Learning**.
+The repo is the official implementation for our IJCAI2025 submission: **Intelli-Planner: Advancing Participatory and Customized Urban Planning with Knowledge-Enhanced Reinforcement Learning**.
 
 ## Overview
 
