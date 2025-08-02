@@ -1,6 +1,6 @@
 # Intelli-Planner
 
-The repo is the official implementation for our IJCAI2025 submission: **Intelli-Planner: Advancing Participatory and Customized Urban Planning with Knowledge-Enhanced Reinforcement Learning**.
+The repo is the official implementation for our AAAI2026 submission: **Intelli-Planner: Advancing Participatory and Customized Urban Planning with Knowledge-Enhanced Reinforcement Learning**.
 
 ## Overview
 
@@ -59,3 +59,4 @@ The table below illustrates the results of our framework's planning in three nei
 We set different planning styles in the Beijing community to generate planning schemes based on various demand orientations:
 
 ![](pic/style.jpg)
+
